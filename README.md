@@ -3,7 +3,7 @@ Project that contains code for Power Logger. It is writen in c++. The directorie
 
 Schematics of the project are in Schematics_easyEDA.
 
-![alt text](https://github.com/JhonVelasquez/PoweLogger/blob/main/Schematics_easyEDA/Power_logger/Basic_circuit_power_logger.PNG?raw=true)
+![alt text](https://github.com/JhonVelasquez/PowerLogger/blob/main/Schematics_easyEDA/Power_logger/Basic_circuit_power_logger.PNG)
 
 Languagues:
 - C++ (Arduino)
