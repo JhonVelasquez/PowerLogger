@@ -1,0 +1,472 @@
+{
+  "uuid": "0ca64819c62c336bafc6e0f2b267313e",
+  "path": "Offline/Power_logger_diy_current_voltage_sensors",
+  "name": "Power_logger_diy_current_voltage_sensors",
+  "content": "",
+  "created_at": "2021-02-10 12:41:33",
+  "updated_at": "2021-02-13 11:03:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ab147b096652c7755e2605088f915cec",
+      "title": "Sheet_1",
+      "description": "OPAMP SOURCE\n-2.3v\n+7v",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "78510b8e32e64d8aac288ec6f8151284": 4,
+        "66aadcb064204b489247c68022ea18a6": 1,
+        "c81f5dec83d2455db9afd2490703fb50": 1,
+        "93b05b65dc854414b3026f971a535e44": 1,
+        "b361ac0bf4184732ad70a1525b82088b": 1,
+        "c8411a0cf7144511eeacdcccf5ec11fa": 1,
+        "d162de3b2ad141c987674fb2233e2dd7": 1,
+        "f3a7c453165143afa7bfcc5ff950857d": 6,
+        "84f38288e554479aa5f6a5d48f033acd": 2,
+        "6f8cb4cfe6a442e8bccc730ac43898a3": 1,
+        "721bcb926de343739eadd8c80d91063c": 12,
+        "de6e10e78407429fb4564dd294b8b856": 1,
+        "0885d9a801c4412ea527e8fd7c2c42ef": 2,
+        "818c5f7858e243fa8c29d81b4324ab57": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Arduino Micro SD Adapter Module",
+          1,
+          "ARDUINO MICRO SD ADAPTER MODULE",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "344a5840f13641009f90914c1cd4eab0",
+            "uuid": "6f8cb4cfe6a442e8bccc730ac43898a3"
+          }
+        ],
+        [
+          "ACS712",
+          1,
+          "ACS712",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "b7dc44f824bb444293e177f08fa14304",
+            "uuid": "66aadcb064204b489247c68022ea18a6"
+          }
+        ],
+        [
+          "SW_PUSH_CON_SHUNT",
+          1,
+          "SW_PUSH_BUTTON_MINI",
+          "SW1-SH-ON",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "678d856801f84f2eb0caf149fc9ed44b",
+            "uuid": "84f38288e554479aa5f6a5d48f033acd"
+          }
+        ],
+        [
+          "SW_PUSH_RECORD",
+          1,
+          "SW_PUSH_BUTTON_MINI",
+          "SW2-RECORD",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "678d856801f84f2eb0caf149fc9ed44b",
+            "uuid": "84f38288e554479aa5f6a5d48f033acd"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "ARDUINO_NANO",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "956db0a5406d4f7b9062ee3957538e31",
+            "uuid": "93b05b65dc854414b3026f971a535e44"
+          }
+        ],
+        [
+          "200",
+          1,
+          "AXIAL-0.3-KIT",
+          "R8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "680",
+          1,
+          "AXIAL-0.3-KIT",
+          "R11",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "AXIAL-0.3-KIT",
+          "R10,R17,R16-1K",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "150",
+          1,
+          "AXIAL-0.3-KIT",
+          "R4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "1.02k",
+          1,
+          "AXIAL-0.3-KIT",
+          "R1-1.2K",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "100",
+          2,
+          "AXIAL-0.3-KIT",
+          "R7,R6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "51k",
+          1,
+          "AXIAL-0.3-KIT",
+          "R2-51K",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "AXIAL-0.3-KIT",
+          "R15",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "330k",
+          1,
+          "AXIAL-0.3-KIT",
+          "R14",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "16058c42ecc2422aa5d8bda0a3deeabf",
+            "uuid": "721bcb926de343739eadd8c80d91063c"
+          }
+        ],
+        [
+          "SWITCH 3 PIN",
+          1,
+          "HEADER 3 PIN",
+          "U5-SWTCH-SH-ACS",
+          {
+            "BOM_Manufacturer Part": "SWITCH",
+            "BOM_Supplier Part": "SWITCH symbol",
+            "BOM_Supplier": "Io",
+            "puuid": "a2a7cb1dbb014de2ab8f6c9a0dcc1b31",
+            "uuid": "818c5f7858e243fa8c29d81b4324ab57"
+          }
+        ],
+        [
+          "0.1uF(104) 100V",
+          2,
+          "CAPACITOR CERAMIC TH 0.1",
+          "C3,C4",
+          {
+            "BOM_Component": "Capacitor Ceramic TH 0.1",
+            "BOM_Manufacturer Part": "?",
+            "puuid": "8b71c1bb559847ff957fd854f72288e5",
+            "uuid": "0885d9a801c4412ea527e8fd7c2c42ef"
+          }
+        ],
+        [
+          "INPUT",
+          1,
+          "TERMINAL_BLOCK_2P_5",
+          "J1-INPUT",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "78510b8e32e64d8aac288ec6f8151284"
+          }
+        ],
+        [
+          "OUTPUT",
+          1,
+          "TERMINAL_BLOCK_2P_5",
+          "J2-OUTPUT",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "78510b8e32e64d8aac288ec6f8151284"
+          }
+        ],
+        [
+          "5V_SUP",
+          1,
+          "TERMINAL_BLOCK_2P_5",
+          "J4-5V-SUPPLY",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "78510b8e32e64d8aac288ec6f8151284"
+          }
+        ],
+        [
+          "Shunt_0.07",
+          1,
+          "TERMINAL_BLOCK_2P_5",
+          "J5-SHUNT",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "78510b8e32e64d8aac288ec6f8151284"
+          }
+        ],
+        [
+          "Rshunt-0.07",
+          1,
+          "AXIAL-1.0",
+          "R3",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "336ce7f15e334d3b853d97fd80292dec",
+            "uuid": "b361ac0bf4184732ad70a1525b82088b"
+          }
+        ],
+        [
+          "DISPLAY - OLED 1.3 I2C",
+          1,
+          "DISPLAY - OLED 1.3 I2C",
+          "DISP1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "DISPLAY - OLED 1.3 I2C",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "83f5d6e44c2543bf94319b6a1bd1b58f",
+            "uuid": "c81f5dec83d2455db9afd2490703fb50"
+          }
+        ],
+        [
+          "UA741CP",
+          1,
+          "DIP-8_L10.1-W6.3-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "UA741CP",
+            "BOM_Supplier Part": "C78758",
+            "puuid": "ae2703f5182d4a06a5d8cab1e43e2a8b",
+            "uuid": "c8411a0cf7144511eeacdcccf5ec11fa"
+          }
+        ],
+        [
+          "OP_SUPPPLY",
+          1,
+          "TERMINAL_BLOCK_3P_5",
+          "J3-OP-SUPPLY",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "722d3fac28b749968e0d6fb06de42dd6",
+            "uuid": "d162de3b2ad141c987674fb2233e2dd7"
+          }
+        ],
+        [
+          "PRESET POT",
+          1,
+          "PRESET",
+          "POT1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "7d840f3fb97849f99b55a64004891cd2",
+            "uuid": "de6e10e78407429fb4564dd294b8b856"
+          }
+        ],
+        [
+          "Green_LED_op_+vcc",
+          1,
+          "DIOAD254W50D410H510",
+          "U5-G-OP+",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ],
+        [
+          "BLUE_LED_rec_shunt",
+          1,
+          "DIOAD254W50D410H510",
+          "U10-B-SH",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ],
+        [
+          "Yellow_LED_op_-vcc",
+          1,
+          "DIOAD254W50D410H510",
+          "U6-G-OP-",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ],
+        [
+          "Green_LED_shunt_on",
+          1,
+          "DIOAD254W50D410H510",
+          "U7-G-SHN-ON",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ],
+        [
+          "Red_LED_record",
+          1,
+          "DIOAD254W50D410H510",
+          "U8-R-REC",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ],
+        [
+          "BLUE_LED_rec_ACS712",
+          1,
+          "DIOAD254W50D410H510",
+          "U11-B-ACS",
+          {
+            "BOM_Manufacturer": "MULTICOMP PRO",
+            "BOM_Manufacturer Part": "703-0090",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "2112100",
+            "puuid": "5576bffd76404d2686787b99e8580c82",
+            "uuid": "f3a7c453165143afa7bfcc5ff950857d"
+          }
+        ]
+      ],
+      "updateTime": 1613232218,
+      "createTime": 1612981799,
+      "histories": [],
+      "created_at": "2021-02-10 13:29:59",
+      "updated_at": "2021-02-13 11:03:38"
+    },
+    {
+      "uuid": "f1b9eb3533e4d009a88653cbd100da50",
+      "puuid": "0ca64819c62c336bafc6e0f2b267313e",
+      "title": "PCB_2021-02-11_10-51-58",
+      "filename": "PCB_2021-02-11_10-51-58.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7dc44f824bb444293e177f08fa14304": 1,
+        "956db0a5406d4f7b9062ee3957538e31": 1,
+        "e98f44b0812c44de84ef8c8e9ff5759f": 4,
+        "336ce7f15e334d3b853d97fd80292dec": 1,
+        "83f5d6e44c2543bf94319b6a1bd1b58f": 1,
+        "ae2703f5182d4a06a5d8cab1e43e2a8b": 1,
+        "722d3fac28b749968e0d6fb06de42dd6": 1,
+        "344a5840f13641009f90914c1cd4eab0": 1,
+        "16058c42ecc2422aa5d8bda0a3deeabf": 12,
+        "8b71c1bb559847ff957fd854f72288e5": 2,
+        "7d840f3fb97849f99b55a64004891cd2": 1,
+        "678d856801f84f2eb0caf149fc9ed44b": 2,
+        "5576bffd76404d2686787b99e8580c82": 6,
+        "a2a7cb1dbb014de2ab8f6c9a0dcc1b31": 1
+      },
+      "BOM": [],
+      "updateTime": 1613232190,
+      "createTime": 1613058718,
+      "histories": [],
+      "created_at": "2021-02-11 10:51:58",
+      "updated_at": "2021-02-13 11:03:10"
+    }
+  ],
+  "sort": [],
+  "title": "Power_logger_diy_current_voltage_sensors",
+  "foldername": "Power_logger_diy_current_voltage_sensors",
+  "schfilename": "Power_logger_diy_current_voltage_sensors.json",
+  "schfilemtime": 1613232218380
+}
